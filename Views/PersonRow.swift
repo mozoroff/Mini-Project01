@@ -16,9 +16,14 @@ struct PersonRow: View {
             )
             .frame(width: 70, height: 70)
             .padding(5)
+            
             VStack(alignment: .leading) {
                 Text(person.name)
+                    .font(.title)
+                    .fontWeight(.bold)
                 Text(String(person.age)+"歳")
+                    .fontWeight(.bold)
+                
             }
             Spacer()
         }
