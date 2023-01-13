@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"鈴木 和幸",
+        "age":17,
+        "imageFileName":"kazuyukiSuzuki"
+    }
+    ,{
+        "id":2,
+        "name":"岡本 麻衣",
+        "age":36,
+        "imageFileName":"maiOkamoto"
+    },
+    {
+        "id":3,
+        "name":"高橋 秀一",
+        "age":26,
+        "imageFileName":"hidekazuTakahashi"
+    },
+    {
+        "id":4,
+        "name":"山本 裕子",
+        "age":19,
+        "imageFileName":"yukoYamamoto"
+    },
+    {
+        "id":5,
+        "name":"伊藤 健介",
+        "age":24,
+        "imageFileName":"kensukeIto"
+    }
+]

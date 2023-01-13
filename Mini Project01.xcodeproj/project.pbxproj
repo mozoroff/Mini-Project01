@@ -12,11 +12,21 @@
 		CAA9E4142970460000BB9B14 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E4132970460000BB9B14 /* Tests_macOS.swift */; };
 		CAA9E4162970460000BB9B14 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E4152970460000BB9B14 /* Tests_macOSLaunchTests.swift */; };
 		CAA9E4172970460000BB9B14 /* Mini_Project01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E3EF297045FF00BB9B14 /* Mini_Project01App.swift */; };
-		CAA9E4182970460000BB9B14 /* Mini_Project01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E3EF297045FF00BB9B14 /* Mini_Project01App.swift */; };
 		CAA9E4192970460000BB9B14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E3F0297045FF00BB9B14 /* ContentView.swift */; };
 		CAA9E41A2970460000BB9B14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E3F0297045FF00BB9B14 /* ContentView.swift */; };
 		CAA9E41B2970460000BB9B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA9E3F12970460000BB9B14 /* Assets.xcassets */; };
 		CAA9E41C2970460000BB9B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA9E3F12970460000BB9B14 /* Assets.xcassets */; };
+		CAA9E42F297047DA00BB9B14 /* PersonData.json in Resources */ = {isa = PBXBuildFile; fileRef = CAA9E42E297047DA00BB9B14 /* PersonData.json */; };
+		CAA9E43B29704EA500BB9B14 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E43A29704EA500BB9B14 /* CircleImage.swift */; };
+		CAA9E43D2970571D00BB9B14 /* PersonData.json in Resources */ = {isa = PBXBuildFile; fileRef = CAA9E42E297047DA00BB9B14 /* PersonData.json */; };
+		CAA9E43F2970573300BB9B14 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E43A29704EA500BB9B14 /* CircleImage.swift */; };
+		CAA9E4422970574100BB9B14 /* Mini_Project01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E3EF297045FF00BB9B14 /* Mini_Project01App.swift */; };
+		CAA9E4442970601E00BB9B14 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9E4432970601E00BB9B14 /* Person.swift */; };
+		CAE1DC0C297113F500BB55AC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1DC0B297113F500BB55AC /* ModelData.swift */; };
+		CAE1DC0E2971158C00BB55AC /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1DC0D2971158C00BB55AC /* PersonRow.swift */; };
+		CAE1DC0F2971158C00BB55AC /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1DC0D2971158C00BB55AC /* PersonRow.swift */; };
+		CAE1DC1129711CDE00BB55AC /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1DC1029711CDE00BB55AC /* PersonList.swift */; };
+		CAE1DC1229711CDE00BB55AC /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1DC1029711CDE00BB55AC /* PersonList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,12 @@
 		CAA9E40F2970460000BB9B14 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA9E4132970460000BB9B14 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CAA9E4152970460000BB9B14 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		CAA9E42E297047DA00BB9B14 /* PersonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PersonData.json; sourceTree = "<group>"; };
+		CAA9E43A29704EA500BB9B14 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CAA9E4432970601E00BB9B14 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CAE1DC0B297113F500BB55AC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CAE1DC0D2971158C00BB55AC /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		CAE1DC1029711CDE00BB55AC /* PersonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,22 +102,16 @@
 		CAA9E3E9297045FF00BB9B14 = {
 			isa = PBXGroup;
 			children = (
-				CAA9E3EE297045FF00BB9B14 /* Shared */,
+				CAA9E3EF297045FF00BB9B14 /* Mini_Project01App.swift */,
+				CAA9E43329704A4700BB9B14 /* Views */,
+				CAA9E43229704A2A00BB9B14 /* Model */,
+				CAA9E43C2970570600BB9B14 /* Resources */,
+				CAA9E3F12970460000BB9B14 /* Assets.xcassets */,
 				CAA9E3FD2970460000BB9B14 /* macOS */,
 				CAA9E4062970460000BB9B14 /* Tests iOS */,
 				CAA9E4122970460000BB9B14 /* Tests macOS */,
 				CAA9E3F72970460000BB9B14 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		CAA9E3EE297045FF00BB9B14 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				CAA9E3EF297045FF00BB9B14 /* Mini_Project01App.swift */,
-				CAA9E3F0297045FF00BB9B14 /* ContentView.swift */,
-				CAA9E3F12970460000BB9B14 /* Assets.xcassets */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		CAA9E3F72970460000BB9B14 /* Products */ = {
@@ -139,6 +149,34 @@
 				CAA9E4152970460000BB9B14 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		CAA9E43229704A2A00BB9B14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9E4432970601E00BB9B14 /* Person.swift */,
+				CAE1DC0B297113F500BB55AC /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAA9E43329704A4700BB9B14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9E3F0297045FF00BB9B14 /* ContentView.swift */,
+				CAA9E43A29704EA500BB9B14 /* CircleImage.swift */,
+				CAE1DC0D2971158C00BB55AC /* PersonRow.swift */,
+				CAE1DC1029711CDE00BB55AC /* PersonList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAA9E43C2970570600BB9B14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9E42E297047DA00BB9B14 /* PersonData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA9E42F297047DA00BB9B14 /* PersonData.json in Resources */,
 				CAA9E41B2970460000BB9B14 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA9E43D2970571D00BB9B14 /* PersonData.json in Resources */,
 				CAA9E41C2970460000BB9B14 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +341,11 @@
 			files = (
 				CAA9E4192970460000BB9B14 /* ContentView.swift in Sources */,
 				CAA9E4172970460000BB9B14 /* Mini_Project01App.swift in Sources */,
+				CAE1DC1129711CDE00BB55AC /* PersonList.swift in Sources */,
+				CAE1DC0E2971158C00BB55AC /* PersonRow.swift in Sources */,
+				CAA9E4442970601E00BB9B14 /* Person.swift in Sources */,
+				CAA9E43B29704EA500BB9B14 /* CircleImage.swift in Sources */,
+				CAE1DC0C297113F500BB55AC /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +354,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAA9E41A2970460000BB9B14 /* ContentView.swift in Sources */,
-				CAA9E4182970460000BB9B14 /* Mini_Project01App.swift in Sources */,
+				CAA9E4422970574100BB9B14 /* Mini_Project01App.swift in Sources */,
+				CAA9E43F2970573300BB9B14 /* CircleImage.swift in Sources */,
+				CAE1DC1229711CDE00BB55AC /* PersonList.swift in Sources */,
+				CAE1DC0F2971158C00BB55AC /* PersonRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
